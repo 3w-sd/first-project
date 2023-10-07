@@ -1,0 +1,151 @@
+Body {
+    Margin: 0;
+    Padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #e5e8fa;
+  }
+  Header {
+    Text-align: center;
+    Padding: 20px;
+  }
+  
+
+  
+  Main {
+    Margin: 20px;
+  }
+  .row {
+    Display: flex;
+    Justify-content: space-between;
+    Margin-bottom: 20px;
+  }
+  Article {
+    Flex: 1;
+    Padding: 10px;
+    Background-color: #87abdb;
+  }
+  Footer {
+    Background-color: #214566;
+    Text-align: center;
+    Padding: 20px;
+  }
+  .logos {
+    height: 80px;
+    max-height:80px ;
+    width: auto;
+  }
+  .navv {
+    background-color: aliceblue;
+    Padding: 15px 0;
+    Text-align: center;
+    Transition: 0.3s ease;
+    border-style: hidden;
+    width: 50%;
+    align-items: center;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border-radius: 30px;
+  }
+  
+  .navv a {
+    Color: #929ddf;
+    Text-decoration: none;
+    Font-weight: bold;
+    Margin: 0 10px;
+    Transition: color 0.3s ease;
+  }
+  
+  .navv a:hover {
+    Color: #7c6acc;
+    font-weight: bolder;
+    font-size: larger;
+    Transition: 0.3s ease;
+  }
+  .footnav {
+    Padding: 15px 0;
+    Text-align: center;
+  }
+  
+  .footnav a {
+    Color: #929ddf;
+    Text-decoration: none;
+    Font-weight: bold;
+    Margin: 0 10px;
+    Transition: color 0.3s ease;
+  }
+  
+  .footnav a:hover {
+    Color: #7c6acc;
+
+  }
+  .bigbanner {
+    border-radius: 50%;
+  }
+  .banner-container {
+    position: relative;
+  }
+  .banner-container img {
+    width: 100%;
+   
+    display: block;
+    border-radius: 75px;
+    filter: brightness(50%);
+  }
+  .banner-content {
+    position: absolute;
+    Transition: color 0.3s ease;
+    bottom: 250px;
+    left: 0;
+    padding: 20px;
+    color: white;
+  
+   background-color: rgba(0, 0, 0, 0,7)
+  
+   
+  }
+  .banner-content h1:hover {
+    color: rgb(179, 210, 238);
+  }
+  .banner-content h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+
+  }
+  .banner-content p {
+    font-size: 16px;
+    margin: 0;
+  }
+.banner-content :hover {
+    color: rgb(179, 210, 238);
+    Transition: color 0.3s ease;
+}
+  .lists {
+    width: 100%;
+    display: flexbox;
+    border-radius: 20px;
+    margin: auto;
+  }
+  .alist {
+    Color: #292f50;
+    Text-decoration: none;
+    Font-weight: bold;
+    Margin: 0 10px;
+    Transition: color 0.3s ease;
+  }
+  .alist:hover {
+    Color: #120e24;
+    font-weight: bolder;
+    font-size: larger;
+    Transition: 0.3s ease;
+
+  }
+  .coulmn {
+    margin-left: 5px;
+    margin-right: 5px ;
+  }
+  article {
+    border-radius: 20px;
+  }
+  .coulmn h1 {
+    text-align: center;
+  }
