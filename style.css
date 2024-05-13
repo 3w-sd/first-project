@@ -149,3 +149,38 @@ Body {
   .coulmn h1 {
     text-align: center;
   }
+  /* Base styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.row {
+  display: flex; /* Make rows behave like flex containers */
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.coulmn {  /* Assuming typo, changing to "column" */
+  flex: 1 0 33.33%;  /* Each column takes 1/3rd space on desktop */
+  padding: 1rem; /* Use rem for flexible spacing */
+}
+
+img {
+  max-width: 100%;  /* Images won't overflow their container */
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+  .coulmn {
+    flex: 1 0 50%;  /* Adjust column width for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .coulmn {
+    flex: 1 0 100%;  /* Make columns stack on mobile */
+  }
+  .banner-content h1 {
+    font-size: 1.5rem;  /* Adjust font size for smaller screens */
+  }
+}
